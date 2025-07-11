@@ -19,24 +19,6 @@ A Flask-based web application designed to simulate dark web forum activity, dete
 - **Database**: SQLite (via SQLAlchemy)
 - **Other**: `hashlib`, `base64`, `random`, `re`, `json`, `matplotlib`, `wordcloud`, `pdfkit`
 
-## Installation
-git clone https://github.com/yourusername/threat-intel-kit.git
-cd threat-intel-kit
-python3 -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
 
-
-##How It Works
--->Login/Register into the system.
--->Access the Forum and create fake posts.
--->Posts are analyzed in real-time using keyword rules.
--->Each post is:
-   -Scored based on suspicious keywords
-   -Hashed for integrity
-   -Assigned a confidence level (e.g., Low/Medium/High)
--->Data can be:
-  -Exported to PDF
-  -Visualized using graph
 
 
