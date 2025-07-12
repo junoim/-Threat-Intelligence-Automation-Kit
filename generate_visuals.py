@@ -8,21 +8,6 @@ from datetime import datetime
 with open("cases_data.json", "r", encoding="utf-8") as f:
     cases = json.load(f)
 
-# -------------------------------
-# 1. WORD CLOUD OF KEYWORDS
-# -------------------------------
-keyword_counter = Counter()
-for case in cases:
-    for post in case["Flagged Posts"]:
-        keyword_counter.update(post["keywords"])
-
-# Create word cloud image
-wc = WordCloud(width=800, height=400, background_color="white")
-wc.generate_from_frequencies(keyword_counter)
-
-# Save image
-wc.to_file("wordcloud.png")
-print("✅ Word cloud saved as wordcloud.png")
 
 # -------------------------------
 # 2. TIMELINE PLOT
