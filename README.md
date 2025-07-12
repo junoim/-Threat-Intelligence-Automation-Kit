@@ -6,21 +6,21 @@ This tool is built to **simulate** how suspicious content might appear in online
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Fake dark web forum simulation**
-- ✍️ Users can **post messages** (simulated actors)
-- 🧠 **Automated keyword detection** with confidence scoring
-- 🔒 **SHA-256 hashing** of each post for tamper-proof records
-- 🌐 Generates **fake IP addresses** and **user IDs**
-- 📊 **Threat scoring** with configurable weights
-- 📄 **Markdown to PDF export** of posts with scores
-- 📈 Visual tools: **word cloud** and **timeline charts**
-- 🧩 Easily update **rulesets (keywords and weights)** via JSON
+-  **Fake dark web forum simulation**
+-  Users can **post messages** (simulated actors)
+-  **Automated keyword detection** with confidence scoring
+-  **SHA-256 hashing** of each post for tamper-proof records
+-  Generates **fake IP addresses** and **user IDs**
+-  **Threat scoring** with configurable weights
+-  **Markdown to PDF export** of posts with scores
+-  Visual tools: **word cloud** and **timeline charts**
+-  Easily update **rulesets (keywords and weights)** via JSON
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **Backend:** Python, Flask
 - **Frontend:** HTML, CSS
@@ -33,7 +33,7 @@ This tool is built to **simulate** how suspicious content might appear in online
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository**
 ```bash
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Running the App
+##  Running the App
 
 1. **Run the Flask server**
 ```bash
@@ -68,7 +68,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - When a user **posts a message**, the system:
   1. Scans the text using a **customizable keyword ruleset** (in `keywords.json`)
@@ -105,18 +105,8 @@ threat-intel-kit/
 
 ---
 
-## 📷 Screenshots
 
-> *(Add images of your UI here once available)*
-
-- Forum post creation with fake IP
-- Threat score + hash display
-- Exported PDF sample
-- Word cloud and timeline charts
-
----
-
-## 🛡️ Disclaimer
+##  Disclaimer
 
 This project is created **strictly for educational and research purposes**. It simulates how dark web forums can be monitored and does **not** access or analyze real dark web content.
 
@@ -124,11 +114,11 @@ Do **not** use this for unauthorized surveillance or unethical purposes.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Shradha Mohanty**  
 Cybersecurity & Threat Intelligence Enthusiast  
-[GitHub](https://github.com/yourusername) • [Email](mailto:youremail@example.com)
+[GitHub](https://github.com/junoim) • [Email](mailto:shradhamohanty790@gmail.com)
 
 ---
 
